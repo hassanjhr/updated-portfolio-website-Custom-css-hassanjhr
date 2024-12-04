@@ -1,97 +1,96 @@
-/* Hero Section Styles */
 .hero-section {
-    color: #4b5563; /* text-gray-600 */
-    background-color: #dcdfe3; /* Fallback gray background (gray-300) */
+    color: #4b5563; 
+    background-color: #dcdfe3; 
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-image: url("/pictures/bg-image.jpg"); /* Replace with your image path */
+    /* background-image: url("/public/assests/pictures/bg-image.jpg");  */
     position: relative;
-    padding-top: 4rem; /* Add padding at the top for spacing */
+    padding-top: 4rem; 
   }
   
-  /* Hero Container */
+  
   .hero-container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 6rem 1.25rem; /* 24px */
-    justify-content: space-between; /* Ensure content is spaced out */
+    padding: 6rem 1.25rem; 
+    justify-content: space-between; 
   }
   
-  /* Hero Content */
+  
   .hero-content {
     flex: 1;
-    margin-bottom: 4rem; /* 16px */
-    text-align: left; /* Default text alignment */
-    padding-right: 1rem; /* Padding to prevent text from being too close to the edge */
+    margin-bottom: 4rem; 
+    text-align: left; 
+    padding-right: 1rem; 
   }
   
   @media (max-width: 768px) {
     .hero-content {
-      text-align: center; /* Center align on smaller screens */
-      margin-bottom: 2rem; /* Adjust bottom margin on smaller screens */
+      text-align: center; 
+      margin-bottom: 2rem; 
     }
   }
   
-  /* Hero Title */
+  
   .hero-title {
-    font-size: 2rem; /* text-3xl */
+    font-size: 2rem;
     font-weight: 500;
-    color: #1f2937; /* text-gray-900 */
-    margin-bottom: 1rem; /* 4px */
+    color: #1f2937; 
+    margin-bottom: 1rem; 
   }
   
   @media (max-width: 768px) {
     .hero-title {
-      font-size: 1.5rem; /* Slightly smaller font size on mobile */
+      font-size: 1.5rem; 
     }
   }
   
-  /* Hero Typewriter Effect */
+  
   .hero-typewriter {
-    font-size: 3rem; /* text-5xl */
+    font-size: 3rem; 
     font-weight: 600;
-    color: #1f2937; /* text-gray-900 */
+    color: #1f2937; 
   }
   
   @media (max-width: 768px) {
     .hero-typewriter {
-      font-size: 2.25rem; /* Slightly smaller font size on mobile */
+      font-size: 2.25rem; 
     }
   }
   
-  /* Hero Divider */
+  
   .hero-divider {
     width: 100px;
     height: 2px;
-    background-color: #2563eb; /* bg-blue-700 */
-    margin-bottom: 1rem; /* 4px */
+    background-color: #2563eb; 
+    margin-bottom: 1rem; 
   }
   
   @media (max-width: 768px) {
     .hero-divider {
-      width: 60px; /* Adjust the width of the divider on mobile */
+      width: 60px; 
     }
   }
   
-  /* Hero Buttons */
+  
   .hero-buttons {
     display: flex;
-    justify-content: flex-start; /* Align button to the left by default */
+    justify-content: flex-start; 
   }
   
   @media (max-width: 768px) {
     .hero-buttons {
-      justify-content: center; /* Center the button on smaller screens */
+      justify-content: center; 
     }
   }
   
-  /* Contact Button */
+  
   .hero-contact-button {
-    background-color: #3b82f6; /* bg-blue-500 */
+    background-color: #3b82f6; 
     color: white;
     border: none;
     padding: 0.5rem 1.5rem;
@@ -102,17 +101,17 @@
   }
   
   .hero-contact-button:hover {
-    background-color: #2563eb; /* hover:bg-blue-600 */
+    background-color: #2563eb; 
   }
   
   @media (max-width: 768px) {
     .hero-contact-button {
-      padding: 0.5rem 1rem; /* Adjust padding for mobile */
-      font-size: 0.875rem; /* Adjust font size for mobile */
+      padding: 0.5rem 1rem; 
+      font-size: 0.875rem; 
     }
   }
   
-  /* Hero Image Container */
+  
   .hero-image-container {
     flex: 1;
     display: flex;
@@ -121,41 +120,41 @@
   
   @media (max-width: 768px) {
     .hero-image-container {
-      flex: 0 0 100%; /* Take full width on smaller screens */
-      margin-top: 2rem; /* Add spacing between content and image on small screens */
+      flex: 0 0 100%; 
+      margin-top: 2rem; 
     }
   }
   
-  /* Hero Image */
+
   .hero-image {
-    border-radius: 0.5rem;
+    border-radius: 1em;
     max-width: 25rem;
     object-fit: cover;
   }
   
   @media (max-width: 768px) {
     .hero-image {
-      max-width: 100%; /* Make image width 100% on mobile */
-      border-radius: 0.25rem; /* Slightly smaller border radius */
+      max-width: 100%; 
+      border-radius: 0.25rem; 
     }
   }
   
   @media (max-width: 480px) {
     .hero-title {
-      font-size: 1.25rem; /* Reduce title size for very small screens */
+      font-size: 1.25rem; 
     }
   
     .hero-typewriter {
-      font-size: 1.75rem; /* Reduce typewriter font size */
+      font-size: 1.75rem; 
     }
   
     .hero-contact-button {
-      font-size: 0.75rem; /* Reduce button font size */
-      padding: 0.5rem 1rem; /* Adjust padding */
+      font-size: 0.75rem; 
+      padding: 0.5rem 1rem; 
     }
   
     .hero-divider {
-      width: 50px; /* Adjust divider width for small screens */
+      width: 50px; 
     }
   }
   

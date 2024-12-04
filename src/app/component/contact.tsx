@@ -1,5 +1,4 @@
-import "@/app/styles/contact.css"; // Importing the custom CSS file
-
+import "@/app/styles/contact.css";
 
 export default function Contact() {
   return (
@@ -81,5 +80,3 @@ export default function Contact() {
     </div>
   );
 }
-
-

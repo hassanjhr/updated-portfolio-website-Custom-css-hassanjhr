@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "@/app/styles/about.css"; // Importing custom CSS
+import "@/app/styles/about.css";
 
 export default function About() {
   return (
@@ -11,10 +11,11 @@ export default function About() {
             <p className="about-text">
               I am Muhammad Hassan Jawaid, a multifaceted professional with a
               Bachelor degree in Finance and an MS in Data Science from Szabist,
-              Karachi, currently enhancing my expertise through a certification in
-              Artificial Intelligence from GIAIC. My portfolio showcases a blend
-              of analytical prowess and digital innovation, featuring projects
-              in web development, data-driven solutions, and AI implementations.
+              Karachi, currently enhancing my expertise through a certification
+              in Artificial Intelligence from GIAIC. My portfolio showcases a
+              blend of analytical prowess and digital innovation, featuring
+              projects in web development, data-driven solutions, and AI
+              implementations.
             </p>
             <p className="about-text">
               I specialize in creating user-friendly, impactful web experiences
@@ -25,10 +26,8 @@ export default function About() {
               solutions.
             </p>
             <div className="about-button-container">
-              <Link href={'/assests/Resume/myResume.pdf'}>
-                <button className="about-button">
-                  View Resume
-                </button>
+              <Link href={"/assests/Resume/myResume.pdf"}>
+                <button className="about-button">View Resume</button>
               </Link>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import "@/app/styles/projects.css"; // Import the CSS file
+import "@/app/styles/projects.css"; 
 
 
 

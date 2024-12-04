@@ -2,16 +2,16 @@
 
 import Image from "next/image";
 import Link from "next/link";
-// import Typewriter from "typewriter-effect";
+import Typewriter from "typewriter-effect";
 import ProfilePic from "@/app/assests/pictures/Picture.png";
-import "@/app/styles/hero.css"; // Importing the custom CSS file
+import "@/app/styles/hero.css";
 
 export default function Hero() {
   return (
     <section className="hero-section">
       <div className="hero-container">
         <div className="hero-content">
-          {/* <h1 className="hero-title">
+          <h1 className="hero-title">
             I am
             <br className="hero-line-break" />
             <span className="hero-typewriter">
@@ -23,7 +23,7 @@ export default function Hero() {
                 }}
               />
             </span>
-          </h1> */}
+          </h1>
           <div className="hero-divider"></div>
 
           <div className="hero-buttons">
@@ -36,8 +36,8 @@ export default function Hero() {
           <Image
             className="hero-image"
             alt="hero"
-            width={500}
-            height={500}
+            width={300}
+            height={300}
             src={ProfilePic}
           />
         </div>
