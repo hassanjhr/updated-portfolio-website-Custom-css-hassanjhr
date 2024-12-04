@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import Image from "next/image";
+// import Image from "next/image";
 import "@/app/styles/footer.css";
 
 export default function Footer() {

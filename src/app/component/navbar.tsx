@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import { FiDownload, FiMenu, FiX } from "react-icons/fi";
 import "@/app/styles/navbar.css";
 
