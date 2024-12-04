@@ -1,0 +1,194 @@
+/* Main Section Styles */
+.contact-section {
+    padding: 4rem 2rem;
+    /* background-color: #f8f8f8; */
+  }
+  
+  /* Container: Flex Layout */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between; /* Ensure space between the map and form */
+  }
+  
+  /* Map Section */
+  .contact-map {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    flex: 1;
+  }
+  
+  .map-frame {
+    object-fit: cover;
+  }
+  
+  /* Contact Info Over Map */
+  .contact-info {
+    position: absolute;
+    top: orem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+  }
+  
+  .address,
+  .contact-details {
+    width: 48%;
+  }
+  
+  .contact-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .email-link {
+    color: #3b82f6;
+    font-weight: 600;
+  }
+  
+  .contact-form {
+    flex: 1;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .form-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Input and Textarea Fields */
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-label {
+    font-size: 0.875rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .input-field,
+  .textarea-field {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .input-field:focus,
+  .textarea-field:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+  }
+  
+  .textarea-field {
+    height: 150px;
+    resize: none;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Stack the map and form vertically */
+      gap: 1rem;
+    }
+  
+    .contact-map {
+      height: 300px; /* Adjust height for smaller screens */
+    }
+  
+    .contact-info {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem;
+    }
+  
+    .address,
+    .contact-details {
+      width: 100%; /* Make the address and details stack */
+      margin-bottom: 1rem;
+    }
+  
+    .contact-form {
+      width: 100%; /* Ensure the form takes full width */
+      padding: 1.5rem;
+    }
+  
+    .form-title {
+      font-size: 1.5rem; /* Smaller title size for mobile */
+    }
+  
+    .form-description {
+      font-size: 0.9rem;
+    }
+  
+    .submit-btn {
+      width: 100%; /* Full-width button on mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-info {
+      padding: 0.5rem; /* Less padding for very small screens */
+    }
+  
+    .contact-title {
+      font-size: 0.75rem;
+    }
+  
+    .input-field,
+    .textarea-field {
+      font-size: 0.875rem;
+    }
+  
+    .submit-btn {
+      font-size: 1rem;
+    }
+  }
+  

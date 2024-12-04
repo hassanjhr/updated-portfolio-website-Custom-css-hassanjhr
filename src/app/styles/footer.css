@@ -1,0 +1,82 @@
+/* Footer Section */
+.footer {
+    background-color: #f3f4f6; /* Light blue background */
+    padding: 2rem 1rem;
+    color: #4a4a4a; /* Dark gray text */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for footer content */
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Logo styling */
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  
+  /* .footer-logo img { */
+    /* width: 70px;
+    height: 50px; */
+    /* margin-right: 10px; */
+  /* } */
+  
+  .footer-logo span {
+    font-weight: bold;
+    color: #333; /* Dark gray text for brand */
+    margin-top: 1rem;
+  }
+  
+  /* Footer text styling */
+  .footer-text {
+    font-size: 0.875rem;
+    color: #7a7a7a;
+  }
+  
+  .footer-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer-text a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social media icons container */
+  .footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .footer-social a {
+    font-size: 1.5rem;
+    color: #555;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #3b82f6; /* Blue color for hover effect */
+  }
+  
+  .footer-social .facebook:hover {
+    color: #3b82f6; /* Specific hover color for Facebook */
+  }
+  
+  .footer-social .twitter:hover {
+    color: #1da1f2; /* Twitter blue */
+  }
+  
+  .footer-social .youtube:hover {
+    color: #ff0000; /* YouTube red */
+  }
+  

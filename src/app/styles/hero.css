@@ -1,0 +1,161 @@
+/* Hero Section Styles */
+.hero-section {
+    color: #4b5563; /* text-gray-600 */
+    background-color: #dcdfe3; /* Fallback gray background (gray-300) */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/pictures/bg-image.jpg"); /* Replace with your image path */
+    position: relative;
+    padding-top: 4rem; /* Add padding at the top for spacing */
+  }
+  
+  /* Hero Container */
+  .hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 6rem 1.25rem; /* 24px */
+    justify-content: space-between; /* Ensure content is spaced out */
+  }
+  
+  /* Hero Content */
+  .hero-content {
+    flex: 1;
+    margin-bottom: 4rem; /* 16px */
+    text-align: left; /* Default text alignment */
+    padding-right: 1rem; /* Padding to prevent text from being too close to the edge */
+  }
+  
+  @media (max-width: 768px) {
+    .hero-content {
+      text-align: center; /* Center align on smaller screens */
+      margin-bottom: 2rem; /* Adjust bottom margin on smaller screens */
+    }
+  }
+  
+  /* Hero Title */
+  .hero-title {
+    font-size: 2rem; /* text-3xl */
+    font-weight: 500;
+    color: #1f2937; /* text-gray-900 */
+    margin-bottom: 1rem; /* 4px */
+  }
+  
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 1.5rem; /* Slightly smaller font size on mobile */
+    }
+  }
+  
+  /* Hero Typewriter Effect */
+  .hero-typewriter {
+    font-size: 3rem; /* text-5xl */
+    font-weight: 600;
+    color: #1f2937; /* text-gray-900 */
+  }
+  
+  @media (max-width: 768px) {
+    .hero-typewriter {
+      font-size: 2.25rem; /* Slightly smaller font size on mobile */
+    }
+  }
+  
+  /* Hero Divider */
+  .hero-divider {
+    width: 100px;
+    height: 2px;
+    background-color: #2563eb; /* bg-blue-700 */
+    margin-bottom: 1rem; /* 4px */
+  }
+  
+  @media (max-width: 768px) {
+    .hero-divider {
+      width: 60px; /* Adjust the width of the divider on mobile */
+    }
+  }
+  
+  /* Hero Buttons */
+  .hero-buttons {
+    display: flex;
+    justify-content: flex-start; /* Align button to the left by default */
+  }
+  
+  @media (max-width: 768px) {
+    .hero-buttons {
+      justify-content: center; /* Center the button on smaller screens */
+    }
+  }
+  
+  /* Contact Button */
+  .hero-contact-button {
+    background-color: #3b82f6; /* bg-blue-500 */
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-contact-button:hover {
+    background-color: #2563eb; /* hover:bg-blue-600 */
+  }
+  
+  @media (max-width: 768px) {
+    .hero-contact-button {
+      padding: 0.5rem 1rem; /* Adjust padding for mobile */
+      font-size: 0.875rem; /* Adjust font size for mobile */
+    }
+  }
+  
+  /* Hero Image Container */
+  .hero-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-image-container {
+      flex: 0 0 100%; /* Take full width on smaller screens */
+      margin-top: 2rem; /* Add spacing between content and image on small screens */
+    }
+  }
+  
+  /* Hero Image */
+  .hero-image {
+    border-radius: 0.5rem;
+    max-width: 25rem;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-image {
+      max-width: 100%; /* Make image width 100% on mobile */
+      border-radius: 0.25rem; /* Slightly smaller border radius */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 1.25rem; /* Reduce title size for very small screens */
+    }
+  
+    .hero-typewriter {
+      font-size: 1.75rem; /* Reduce typewriter font size */
+    }
+  
+    .hero-contact-button {
+      font-size: 0.75rem; /* Reduce button font size */
+      padding: 0.5rem 1rem; /* Adjust padding */
+    }
+  
+    .hero-divider {
+      width: 50px; /* Adjust divider width for small screens */
+    }
+  }
+  
